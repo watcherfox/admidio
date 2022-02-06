@@ -35,6 +35,9 @@
         "ext-pdo_pgsql": "For PostgreSQL database support"
     },
     "autoload": {
-        "classmap": ["adm_program/system/classes/"]
+        "psr-4": {
+            "Admidio\\": "adm_program/src/"
+        },
+        "files": ["adm_program/system/bootstrap/function.php"]
     }
 }

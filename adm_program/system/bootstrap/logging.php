@@ -17,6 +17,7 @@ use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\RotatingFileHandler;
 use Monolog\Processor\IntrospectionProcessor;
+use Admidio\Utilities\FileSystemUtils;
 
 function createLogDirIfNotExist()
 {

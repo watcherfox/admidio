@@ -8,6 +8,8 @@
  * @license https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2.0 only
  ***********************************************************************************************
  */
+use Admidio\Utilities\FileSystemUtils;
+
 if (basename($_SERVER['SCRIPT_FILENAME']) === 'shutdown.php') {
     exit('This page may not be called directly!');
 }

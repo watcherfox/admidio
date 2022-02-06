@@ -9,6 +9,17 @@
  * @license https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2.0 only
  ***********************************************************************************************
  */
+
+use Admidio\Core\AdmException;
+use Admidio\Core\Database;
+use Admidio\Core\Language;
+use Admidio\Core\LanguageData;
+use Admidio\DatabaseObjects\Component;
+use Admidio\DatabaseObjects\Organization;
+use Admidio\DatabaseObjects\Session;
+use Admidio\Modules\Profiles\ChangeNotification;
+use Admidio\Modules\Profiles\ProfileFields;
+
 if (basename($_SERVER['SCRIPT_FILENAME']) === 'common.php') {
     exit('This page may not be called directly!');
 }
